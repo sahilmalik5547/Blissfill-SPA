@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 700px !important;
+}
+.head{
+    border-bottom: 0px;
+}
+.head li {
+    text-align: center;
+}
+.banner-img{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    padding: 0px !important;
+}
+.mainbanner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.mainbanner1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(to right rgba(48, 47, 47, 0.219),rgba(54, 53, 53, 0.212));
+}
+
+.text-cont{
+    text-align: center;
+    width: 80%;
+}
+.photo-gall{
+    padding: 0px !important;
+   
+}
+.photo-gall input{
+    height: 300px;
+    width: 45%;
+    margin: 10px !important;
+}
+.photo-gall2 input{
+    height: 300px;
+    width: 45%;
+    margin: 10px !important;
+}
+.enjoy{
+    height: 300px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+i{
+    font-size:xx-large;
+}
+@media  screen and (max-width:576px){
+    .photo-gall input{
+        width: 100%;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        padding: 0px 15px !important;
+
+    }  
+    .photo-gall2 input{
+        width: 100%;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 10px !important;
+        padding: 0px !important;
+    } 
+    .container{
+        width: 100% !important;
+    } 
+    .head h2{
+        font-size:25px ;
+    }
+ 
+}
